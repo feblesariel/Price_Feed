@@ -23,27 +23,22 @@ bootstrap<br>
 Instalar
 
 ```
-  Ejecutar -> git clone https://github.com/feblesariel/Price_Feed.git
-  Ejecutar -> npm install  
+  git clone https://github.com/feblesariel/Price_Feed.git
+  npm install  
     
 ```
 Configurar
 
+**Nota:** Antes de la compilacion con el comando "migrate", configurar el archivo truffle-config.js (infura apikey, private key account y network). Despues de la compilacion añadir al archivo priceFeed.js ( path infura+apikey, abi y direccion del contrato).
+
 ```
-  Configurar el archivo truffle-config.js (infura apikey, private key account y network).
-  Configurar el archivo priceFeed.sol (addresses network).
-  Ejecutar -> truffle console --network goerli
-  Ejecutar -> migrate
-  Configurar el archivo priceFeed.js (infura apikey, abi y direccion del contrato).  
+  truffle console --network goerli
+  migrate
 
 ```
 Iniciar
 
 ```
-  Correr servidor web index.html
+  index.html
 
 ```
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT.
