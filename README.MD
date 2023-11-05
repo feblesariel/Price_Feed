@@ -2,9 +2,9 @@
 
 ## Descripción
 
-La dApp proporciona información en tiempo real sobre los precios de criptomonedas, como BTC/USD, ETH/USD y EUR/USD. Esta información se obtiene de manera confiable y precisa a través de la consulta a un oráculo de Chainlink, que está vinculado a un contrato inteligente en la red Ethereum.
+La dApp web proporciona los precios en tiempo real de las criptomonedas BTC/USD y ETH/USD. Esta información se obtiene de manera confiable y precisa a través de la consulta a un oráculo de Chainlink, el cual está vinculado a nuestro contrato inteligente desplegado en la red Ethereum.
 
-**Nota:** La actual configuracion inicial es sobre testnet Goerli. Antes de deployar con el comando "migrate" configurar datos requeridos mas abajo y asegurarse que la cuenta con cual se hara la transaccion tenga fondos para pagar el gas.
+**Nota:** La actual configuracion inicial es sobre la red testnet Goerli. Antes de deployar con el comando "migrate" configurar datos requeridos mas abajo y asegurarse que la cuenta con cual se hará la transaccion tenga fondos para pagar el gas.
 
 Se utilizaron las siguientes tecnologias y librerias:
 
